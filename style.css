@@ -4,19 +4,45 @@
 }
 
 .cabeçalho {
-    .cabeçalho-lista-item{
-        display: inline-block;
-        margin: 0 16px;
-        font-size: 24px;
-    }
-    .cabeçalho-imagem{
-        width: 20%;
-    }
     background-color: #d35eb0;
     color: white;
     display:flex;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
+    }
 
+    .cabeçalho-imagem{
+        width: 15%;
+    }
+
+    .cabeçalho-lista-item{
+        display: inline-block;
+        margin: 0 16px;
+        font-size: 20px;
+    }
+
+    .escola-imagem{
+        width: 25%;
+    }
+
+    .escola{
+        background-image: linear-gradient(#d35eb0,#f8a8c5);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        padding: 20px 0;
+    }
+
+    .escola-conteúdo{
+        width: 40%;
+    }
+
+    .escola-titulo{
+        padding: 24px 0;
+    }
+
+    body{
+        font-family: 'Poppins', sans-serif;
     }
